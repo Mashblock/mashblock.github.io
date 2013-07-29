@@ -1,0 +1,15 @@
+h1.logo{
+  height:46px;
+  width: 442px;
+  background: image-url('mashblock-open.png') center no-repeat;
+  text-indent: -10000px;
+  overflow:hidden;
+}
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  h1.logo{
+    background: image-url('mashblock-open@2x.png') center no-repeat;
+    background-size: 442px 46px;
+  }
+}

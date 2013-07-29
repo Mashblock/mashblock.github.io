@@ -23,10 +23,15 @@
         <![endif]-->
         <div class="container">
           <div class='page-header'>
-            <h1>Mashblock Open</h1>
+            <h1 class='logo'>Mashblock Open</h1>
           </div>
           <%= yield %>
+          <footer>
+            <hr />
+            <p class="text-center">&copy; <%= Time.now.year %> <%= link_to "Cameron Prebble", "http://cameron-prebble.com" %>.</p>
+          </footer>
         </div>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
