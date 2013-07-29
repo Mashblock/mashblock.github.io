@@ -1,9 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 h1.logo{
   height:46px;
   width: 442px;
   background: image-url('mashblock-open.png') center no-repeat;
   text-indent: -10000px;
   overflow:hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media
 (-webkit-min-device-pixel-ratio: 2),
