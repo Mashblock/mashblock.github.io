@@ -6,7 +6,16 @@ title: Mashblock Open
 <ul class="thumbnails">
   <li class="span4">
     <div class="thumbnail">
-      <% link_to "/beervana-abv" do %>
+      <% link_to "http://open.mashblock.co.nz/population-map" do %>
+        <%= image_tag( "population-map.png") %>
+        <h6>Population Map</h6>
+      <% end %>
+      <p>An interactive choropleth map of New Zealand's 2013 census population results.</p>
+    </div>
+  </li>
+  <li class="span4">
+    <div class="thumbnail">
+      <% link_to "http://open.mashblock.co.nz/beervana-abv" do %>
         <%= image_tag( "beervana.png") %>
         <h6>Beervana 2013 Beers</h6>
       <% end %>
@@ -15,7 +24,7 @@ title: Mashblock Open
   </li>
   <li class="span4">
     <div class="thumbnail">
-      <% link_to  "/nz-baby-names" do %>
+      <% link_to  "http://open.mashblock.co.nz/nz-baby-names" do %>
         <%= image_tag( "nz-baby-names.png") %>
         <h6>Most Popular Baby Names in NZ</h6>
       <% end %>
@@ -27,7 +36,7 @@ title: Mashblock Open
 
 <h3>Links</h3>
 <ul>
-  <li><%= link_to "Mashblock on GitHub", "https://github.com/mashblock" %></li>
-  <li><%= link_to "Mashblock on Codepen", "http://codepen.io/mashblock" %> (demos coming soon).</li>
   <li><%= link_to "mashblock.co.nz", "http://mashblock.co.nz" %></li>
+  <li><%= link_to "Mashblock on GitHub", "https://github.com/mashblock" %></li>
+  <li><%= link_to "Mashblock on Codepen", "http://codepen.io/mashblock" %></li>
 </ul>
